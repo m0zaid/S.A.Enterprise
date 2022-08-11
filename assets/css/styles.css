@@ -198,6 +198,21 @@ body.dark-theme {
   transition: .4s;
 }
 
+.cost {
+  color: #7D9D9C;
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: lighter;
+  padding-left: 0.5rem;
+}
+
+.icon {
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-style: normal;
+}
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -1191,6 +1206,7 @@ body.dark-theme {
   }
 }
 
+
 /* For large devices */
 @media screen and (min-width: 1024px) {
   .container {
@@ -1220,19 +1236,4 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
-}
-
-.cost {
-  color: #7D9D9C;
-  font-size: 12px;
-  line-height: 1.5;
-  font-style: normal;
-  font-weight: lighter;
-  padding-left: 0.5rem;
-}
-
-.icon {
-  padding-top: 0;
-  padding-bottom: 5px;
-  font-style: normal;
 }
